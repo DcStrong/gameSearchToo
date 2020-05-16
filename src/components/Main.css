@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.select {
+  border-radius: 10px;
+  border-color: #36B;
+  font-size: 18px;
+  padding: 10px 5px;
+  box-sizing: border-box;
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 300px;
+  padding: 30px;
+  margin-top: 200px;
+  background-color: #e6e6e6;
+  border-radius: 25px;
+  justify-content: space-evenly;
+}
+
+.button {
+  background-image: linear-gradient(to right, rgb(51, 66, 232), rgb(56, 76, 230), rgb(61, 85, 227), rgb(66, 95, 225), rgb(71, 105, 223), rgb(76, 115, 221), rgb(81, 124, 218), rgb(86, 134, 216), rgb(91, 144, 214), rgb(96, 154, 212), rgb(101, 163, 209), rgb(106, 173, 207));
+  border: none;
+  background-color: transparent;
+  color: #fff;
+  font-size: 18px;
+  margin: 0 auto;
+  border-radius: 10px;
+  cursor: pointer;
+  padding: 12px 50px;
+}
+
+.select__container {
+  display: flex;
+  flex-direction: column;
+}
+
+.label {
+  margin: 5px 0;
+}
+
+.game {
+  display: flex;
+}
+
+.progress-bar {
+  width: 100%;
+}
+
+.counter {
+  text-align: center;
+  font-size: 35px;
+}
+
+.info_bar {
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin: 100px 20px 20px;
+}
+
+.game-status {
+  display: flex;
+  flex-direction: column;
+}
